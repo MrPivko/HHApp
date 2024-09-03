@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.HHApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Цвет фона активностей -->
+        <item name="android:windowBackground">@color/black</item>
+
+        <!-- Цвет фона элементов -->
+        <item name="android:colorBackground">@color/black</item>
+        <!-- Основной цвет текста -->
+        <item name="android:textColor">@color/white</item>
+
+        <!-- Цвет кнопок -->
+        <item name="colorButtonNormal">@color/white</item>
+
+        <!-- Цвета для панели навигации -->
+        <item name="android:navigationBarColor">@color/black</item>
+
+    </style>
+
+    <!-- Стили для BottomNavigationView -->
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:background">@color/dark_gray</item>
+        <item name="itemIconTint">@color/bottom_nav_item_icon_color_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_item_text_color_selector</item>
+    </style>
+
+    <!-- Цвета иконок неактивных элементов -->
+    <color name="bottom_nav_item_icon_color">#CCCCCC</color> <!-- Светло-серый -->
+    <!-- Цвет текста и иконок активного элемента -->
+    <color name="bottom_nav_item_text_color">#CCCCCC</color> <!-- Белый текст -->
+
+</resources>
